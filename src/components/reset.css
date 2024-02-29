@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ 
+input{
+    width:20%; border:none;
+    border-bottom:2px solid rgb(14, 135, 132);
+outline: none;
+background:none;
+}
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+Link {
+    color: white;
+}

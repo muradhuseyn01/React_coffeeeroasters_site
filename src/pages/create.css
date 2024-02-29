@@ -1,0 +1,246 @@
+
+.create__plan-lists {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.create__plan-lists-left {
+    width: 35%;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.list {
+    color: rgb(131, 136, 143);
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+/*
+.create__plan-lists-left ul li:hover {
+    color: rgb(51, 61, 75);
+    cursor: pointer;
+} */
+.active {
+    color: rgb(51, 61, 75);
+    cursor: pointer;
+}
+
+.create__plan-lists-left ul li span {
+    color: rgb(14, 135, 132);
+    padding-right: 8%;
+}
+
+.create__plan-lists-right {
+    width: 60%;
+}
+
+.create__lists-list {
+    color: rgb(131, 136, 143);
+    font-family: 'Fraunces';
+    /*font-size: 2rem;*/
+    font-weight: 900;
+    margin-bottom: 20px;
+    
+    
+    cursor: pointer;
+}
+.create__lists-list-title{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.create__lists-list-title>p{
+    font-size: 2rem;
+}
+
+.create__lists-list img {
+    width: 18px;
+    height: 12px;
+}
+
+.create__plan-lists-right-order {
+    width: 87%;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 50px 0;
+    background-color: rgb(51, 61, 75);
+}
+
+.create__plan-lists-right-order p {
+    color: rgb(255, 255, 255);
+    font-family: 'Barlow';
+}
+
+.create__plan-lists-right-order h3 {
+    font-family: 'Fraunces';
+    font-size: 24px;
+    color: rgb(254, 252, 247);
+    font-weight: 900;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.create__plan-lists-right-order h3 span {
+    color: rgb(14, 135, 132);
+}
+
+.create__plan-btn {
+    width: 30%;
+    position: relative;
+    left: 57%;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background: rgb(226, 222, 219);
+    color: rgb(254, 252, 247);
+    font-family: 'Fraunces';
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 5rem;
+}
+
+.create__plan-btn:hover {
+    background-color: rgb(14, 135, 132);
+    color: rgb(254, 252, 247);
+}
+
+/*--------------------- Card Preferences-----------------------*/
+.preferences__add {
+    width: 90%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.display {
+    display: none;
+}
+
+.preferences__add-card {
+    width: 33%;
+    height: auto;
+    cursor: pointer;
+    padding: 25px 10px 52px 10px;
+    border-radius: 8px;
+    background: rgb(244, 241, 235);
+}
+
+.preferences__add-card:hover {
+    background-color: rgb(253, 214, 186);
+}
+
+/*
+.preferences__add-card:active {
+    background-color: rgb(14, 135, 132);
+    color: rgb(254, 252, 247);
+} */
+.preferences__add-card.active {
+    background-color: rgb(14, 135, 132);
+    color: rgb(254, 252, 247);
+}
+
+.preferences__add-card:active.preferences__add-card>h4,
+.preferences__add-card:active.preferences__add-card>p {
+    color: rgb(254, 252, 247);
+}
+
+.preferences__add-card h4 {
+    color: rgb(51, 61, 75);
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.preferences__add-card>p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(51, 61, 75);
+    font-family: 'Barlow';
+}
+
+/*----------------------CreatePlan Article component------------------*/
+.create__plan-article {
+    width: 90%;
+    margin: 40px auto;
+    padding: 90px 0 0 0;
+    background-color: rgb(25, 29, 29);
+    color: aliceblue !important;
+}
+
+/*----------------------CreatePlan Order Summery finish------------------*/
+.create__plan-finish {
+    width: 34%;
+    margin: 0 auto;
+    background-color:white;
+    box-shadow: 3px 4px 10px 4px grey;
+    position: fixed;
+    z-index: 3;
+    left: 32%; 
+    top: 10%;
+}
+.hide{
+    display: none;
+}
+.background-blur{
+    background: rgb(158, 156, 156);
+     z-index: -1; 
+}
+
+.create__plan-finish-title {
+    width: 100%;
+    padding: 20px 0;
+    background: rgb(51, 61, 75);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Fraunces';
+    font-size: clamp(18px, 2vw, 34px);
+    font-weight: 900;
+}
+
+.create__plan-finish-text {
+    padding: 15px;
+    color: rgb(51, 61, 75);
+    line-height: 28px;
+}
+
+.create__plan-finish-text>p:nth-of-type(1),
+.create__plan-finish-price>span {
+    font-family: 'Fraunces';
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.create__plan-finish-text>p>span {
+    color: rgb(14, 135, 132);
+}
+
+.create__plan-finish-text>p:nth-of-type(2) {
+    font-family: 'Barlow';
+}
+
+.create__plan-finish-price {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+}
+
+.create__plan-finish-price>button {
+    width: 38%;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background: rgb(14, 135, 132);
+    color: rgb(254, 252, 247);
+    font-family: 'Fraunces';
+    font-size: clamp(10px, 1.5vw, 18px);
+    font-weight: 900;
+}

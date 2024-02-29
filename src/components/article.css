@@ -1,0 +1,88 @@
+.coffee__choose {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    bottom: 80px;
+}
+
+hr {
+    width: 60%;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+
+/*
+.coffee__choose h4 {
+    color: rgb(131, 136, 143);
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+}*/
+
+.coffee__choose-design {
+    width: 60%;
+    z-index: 2;
+    position: absolute;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee__choose-design-oval {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid rgb(14, 135, 132);
+    background: rgb(254, 252, 247);
+}
+
+.coffee__choose-cards {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    margin-top: 70px;
+}
+
+.coffee__choose-cards-card {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.coffee__choose-cards-card h1 {
+    color: rgb(253, 214, 186);
+    font-family: 'Fraunces';
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.coffee__choose-cards-card h3 {
+    color: rgb(51, 61, 75);
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: 900;
+    margin: 15px 0;
+}
+
+.coffee__choose-cards-card p {
+    color: rgb(51, 61, 75);
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*
+.coffee__choose>button {
+    width: 20%;
+    padding: 20px 24px;
+    margin: 30px 0 0 0;
+    border-radius: 6px;
+    background-color: rgb(14, 135, 132);
+    color: rgb(254, 252, 247) !important;
+    font-family: 'Fraunces';
+    font-size: 18px;
+    font-weight: 900;
+} */

@@ -1,0 +1,219 @@
+/**------------------------Home Page Container----------------------*/
+.home__cont {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home__cont-coffees {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.home__cont-coffees-backImg {
+    width: 95%;
+    margin: 0 auto;
+    background: url(src/assets/images/Rectangle.png);
+    padding: 0 30px;
+}
+
+.home__cont-coffees-backImg>h1 {
+    font-size: clamp(50px, 8.5vw, 128px);
+    font-family: "Fraunces";
+    color: rgb(131, 136, 143);
+    text-align: center;
+    opacity: 0.4;
+}
+
+.home__cont-coffees-cards {
+    width: 78%;
+    gap: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.home__coffees-cards-card {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    position: relative;
+    bottom: 90px;
+}
+
+.home__coffees-card-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home__coffees-card-img img {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.home__coffees-card-info {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home__coffees-card-info h3 {
+    text-align: center;
+    color: rgb(51, 61, 75);
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.home__coffees-card-info p {
+    text-align: center;
+    color: rgb(51, 61, 75);
+    font-family: 'Barlow';
+    font-size: 16px;
+}
+
+
+.header-btn {
+    width: 17%;
+    padding: 15px 24px;
+    margin-bottom: 60px;
+    border-radius: 6px;
+    background-color: rgb(14, 135, 132);
+    color: rgb(254, 252, 247) !important;
+    font-family: 'Fraunces';
+    font-size: 18px;
+    font-weight: 900;
+    position: relative;
+    bottom: 200px;
+    left: 10%;
+}
+.header-btn:hover {
+    background-color: white;
+    color: rgb(14, 135, 132);
+}
+.header-btn:hover a {
+    color: rgb(14, 135, 132);
+}
+
+/*---------------------Container Features--------------------*/
+.home__cont-features {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+}
+
+.home__cont-features-main {
+    width: 100%;
+    height: 470px;
+    border-radius: 10px;
+    background-color: rgb(51, 61, 75);
+}
+
+.home__cont-features-detail {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 40px;
+    color: rgb(254, 252, 247);
+    text-align: center;
+}
+
+.home__cont-features-detail h2 {
+    font-family: 'Fraunces';
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.home__cont-features-detail p {
+    font-family: Barlow;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.home__cont-features-cards {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    bottom: 200px;
+}
+
+.home__cont-features-card {
+    width: 27%;
+    height: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(14, 135, 132);
+    color: rgb(254, 252, 247);
+    ;
+}
+
+.home__cont-features-card-img {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.home__cont-features-card-img img {
+    width: 100px;
+    height: 100px;
+}
+
+.home__cont-features-card-info {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.home__cont-features-card-info h3 {
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.home__cont-features-card-info p {
+    font-family: 'Barlow';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*------------------------How it Works----------------------*/
+.home__cont-works {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100px;
+}
+
+.home__cont-works h4 {
+    color: rgb(131, 136, 143);
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    margin: 10px 90px 70px 90px;
+}
+
+.home__cont-btn {
+    width: 20%;
+    padding: 15px 24px;
+    margin-bottom: 60px;
+    border-radius: 6px;
+    background-color: rgb(14, 135, 132);
+    color: rgb(254, 252, 247) !important;
+    font-family: 'Fraunces';
+    font-size: 18px;
+    font-weight: 900;
+    position: relative;
+    bottom: 50px;
+    left: 7%;
+}
+
+.home__cont-btn:hover {
+    background-color: rgb(132, 208, 207);
+}
